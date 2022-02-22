@@ -83,16 +83,6 @@ plt.pie(data, colors=colors, labels=labels, autopct="%.1f%%",
 plt.title("Continental population", fontsize=15)
 plt.show()
 
-# bar chart
-plt.subplots(figsize=[10, 6])
-plt.title("Distribution of the population", fontsize=15)
-plt.xlabel('Country')
-plt.ylabel('Population')
-plt.bar(Pop_df['Country'],Pop_df['Population'],color='red')
-plt.bar(Pop_df['Country'],Pop_df['Country Urban Population'],color='blue')
-plt.bar(Pop_df['Country'],Pop_df['Country Rural Population'],
-        color='yellow')
-plt.show()
 
 # scatter plot of the urban to rural populace
 plt.subplots(figsize=[10, 6])
